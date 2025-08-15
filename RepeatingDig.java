@@ -16,6 +16,7 @@ public class RepeatingDig {
         }
         if(c==0)
             System.out.println("The digit is not present in the number");
+        else
         System.out.println("The repeatation of " +m+ " => "+c);
     }
 }
