@@ -1,0 +1,40 @@
+.dashboard {
+  padding: 10%;
+  display: flex;
+  min-height: 80vh;
+}
+
+.sidebar {
+  background: #1B263B;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar button {
+  background: #00FFFF;
+  color: #0D1B2A;
+  border: none;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #1B263B;
+  padding: 20px;
+  flex: 1;
+  border-radius: 8px;
+}
